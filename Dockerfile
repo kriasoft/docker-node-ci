@@ -1,9 +1,9 @@
-FROM node:8.2.1-alpine
+FROM node:8.3.0-alpine
 MAINTAINER Konstantin Tarkus <hello@tarkus.me>
 
-ENV AWS_CLI_VERSION 1.11.123
+ENV AWS_CLI_VERSION 1.11.133
 ENV WATCHMAN_VERSION 4.7.0
-ENV DOCKER_COMPOSE_VERSION 1.15.0rc1
+ENV DOCKER_COMPOSE_VERSION 1.15.0
 
 RUN apk add --no-cache bash git openssh-client ca-certificates curl docker \
         gcc g++ linux-headers make autoconf automake python-dev py2-pip \
@@ -15,6 +15,5 @@ RUN apk add --no-cache bash git openssh-client ca-certificates curl docker \
     ./autogen.sh && \
     ./configure && \
     make && make install && \
-    echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && \
     cd /tmp && rm -rf watchman-${WATCHMAN_VERSION} && \
     apk del gcc g++ linux-headers make autoconf automake
