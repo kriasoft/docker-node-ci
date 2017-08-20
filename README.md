@@ -4,7 +4,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `8.3.0-alpine`, `8.3-alpine`, `8-alpine`, `alpine`, `latest` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/master/Dockerfile)*
+* `8.4.0-alpine`, `8.4-alpine`, `8-alpine`, `alpine`, `latest` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/master/Dockerfile)*
+* `8.3.0-alpine`, `8.3-alpine`, *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.3.0/Dockerfile)*
 * `8.2.1-alpine`, `8.2-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.2.1/Dockerfile)*
 
 ### Pre-installed packages
