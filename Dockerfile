@@ -2,7 +2,7 @@ FROM node:8.4.0-alpine
 MAINTAINER Konstantin Tarkus <hello@tarkus.me>
 
 ENV AWS_CLI_VERSION 1.11.136
-ENV WATCHMAN_VERSION 4.7.0
+ENV WATCHMAN_VERSION 4.9.0
 ENV DOCKER_COMPOSE_VERSION 1.15.0
 
 RUN apk add --no-cache bash git openssh-client ca-certificates curl docker \
