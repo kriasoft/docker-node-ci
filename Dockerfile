@@ -6,7 +6,7 @@ ENV WATCHMAN_VERSION 4.9.0
 ENV DOCKER_COMPOSE_VERSION 1.15.0
 
 RUN apk add --no-cache bash git openssh-client ca-certificates curl docker \
-        gcc g++ linux-headers make autoconf automake python-dev py2-pip \
+        g++ linux-headers make autoconf automake python-dev py2-pip \
         chromium chromium-chromedriver && \
     pip install awscli==${AWS_CLI_VERSION} docker-compose==${DOCKER_COMPOSE_VERSION} && \
     cd /tmp && curl -LO https://github.com/facebook/watchman/archive/v${WATCHMAN_VERSION}.tar.gz && \
@@ -15,5 +15,4 @@ RUN apk add --no-cache bash git openssh-client ca-certificates curl docker \
     ./autogen.sh && \
     ./configure && \
     make && make install && \
-    cd /tmp && rm -rf watchman-${WATCHMAN_VERSION} && \
-    apk del gcc g++ linux-headers make autoconf automake
+    cd /tmp && rm -rf watchman-${WATCHMAN_VERSION}
