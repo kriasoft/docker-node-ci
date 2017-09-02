@@ -1,13 +1,12 @@
 FROM node:8.4.0-alpine
 MAINTAINER Konstantin Tarkus <hello@tarkus.me>
 
-ENV AWS_CLI_VERSION 1.11.136
+ENV AWS_CLI_VERSION 1.11.145
 ENV WATCHMAN_VERSION 4.7.0
-ENV DOCKER_COMPOSE_VERSION 1.15.0
+ENV DOCKER_COMPOSE_VERSION 1.16.1
 
 RUN apk add --no-cache bash git openssh-client ca-certificates curl docker \
-        g++ linux-headers make autoconf automake python-dev py2-pip \
-        chromium chromium-chromedriver && \
+        g++ linux-headers make autoconf automake libtool python-dev py2-pip && \
     pip install awscli==${AWS_CLI_VERSION} docker-compose==${DOCKER_COMPOSE_VERSION} && \
     cd /tmp && curl -LO https://github.com/facebook/watchman/archive/v${WATCHMAN_VERSION}.tar.gz && \
     tar xzf v${WATCHMAN_VERSION}.tar.gz && rm v${WATCHMAN_VERSION}.tar.gz && \
