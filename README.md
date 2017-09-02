@@ -19,8 +19,6 @@
 * [Docker Compose](https://docs.docker.com/compose/)
 * [AWS CLI](https://aws.amazon.com/cli/)
 * [Watchman](https://facebook.github.io/watchman/)
-* [Chromium](https://www.chromium.org/)
-* [Chromium ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
 
 ### Related projects
 
