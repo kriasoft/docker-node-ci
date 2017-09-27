@@ -1,10 +1,9 @@
-FROM node:8.5.0
-MAINTAINER Konstantin Tarkus <hello@tarkus.me>
+FROM node:8.6.0
 
 ENV PYTHON_PIP_VERSION 9.0.1
-ENV AWS_CLI_VERSION 1.11.153
+ENV AWS_CLI_VERSION 1.11.160
 ENV WATCHMAN_VERSION 4.9.0
-ENV DOCKER_VERSION 17.07.0~ce-0~debian
+ENV DOCKER_VERSION 17.09.0~ce-0~debian
 ENV DOCKER_COMPOSE_VERSION 1.16.1
 
 RUN set -ex; \
@@ -38,7 +37,7 @@ RUN set -ex; \
     docker --version; \
 
     # Docker Compose
-    curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose; \
+    curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose; \
     chmod +x /usr/local/bin/docker-compose; \
     docker-compose --version; \
 
