@@ -1,6 +1,6 @@
 FROM node:8.6.0-alpine
 
-ENV AWS_CLI_VERSION 1.11.160
+ENV AWS_CLI_VERSION 1.11.165
 ENV WATCHMAN_VERSION 4.9.0
 ENV DOCKER_COMPOSE_VERSION 1.16.1
 
@@ -11,6 +11,10 @@ RUN set -ex; \
     # AWS CLI
     pip install awscli==${AWS_CLI_VERSION}; \
     aws --version; \
+
+    # Google Cloud SDK
+    curl https://sdk.cloud.google.com | bash; \
+    /root/google-cloud-sdk/bin/gcloud components install kubectl; \
     
     # Docker
     apk add --no-cache docker; \
