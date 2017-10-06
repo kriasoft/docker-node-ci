@@ -15,6 +15,7 @@ RUN set -ex; \
     # Google Cloud SDK
     curl https://sdk.cloud.google.com | bash; \
     /root/google-cloud-sdk/bin/gcloud components install kubectl; \
+    echo "export PATH=$PATH:/root/google-cloud-sdk/bin" >> /etc/profile; \
     
     # Docker
     apk add --no-cache docker; \

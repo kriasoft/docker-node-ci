@@ -32,6 +32,7 @@ RUN set -ex; \
     # Google Cloud SDK
     curl https://sdk.cloud.google.com | bash; \
     /root/google-cloud-sdk/bin/gcloud components install kubectl; \
+    echo "export PATH=$PATH:/root/google-cloud-sdk/bin" >> /root/.bashrc; \
 
     # Docker
     curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -; \
