@@ -4,12 +4,14 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `8.8.1`, `8.8`, `8`, `latest` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/master/Dockerfile)*
+* `8.9.0`, `8.9`, `8`, `latest` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/master/Dockerfile)*
+* `8.8.1`, `8.8` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.8.1/Dockerfile)*
 * `8.7.0`, `8.7` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.7.0/Dockerfile)*
 * `8.6.0`, `8.6` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.6.0/Dockerfile)*
 * `8.5.0`, `8.5` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.5.0/Dockerfile)*
 * `8.4.0`, `8.4` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.4.0/Dockerfile)*
-* `8.8.1-alpine`, `8.8-alpine`, `8-alpine`, `alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/master/alpine/Dockerfile)*
+* `8.9.0-alpine`, `8.9-alpine`, `8-alpine`, `alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/master/alpine/Dockerfile)*
+* `8.8.1-alpine`, `8.8-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.8.1/alpine/Dockerfile)*
 * `8.7.0-alpine`, `8.7-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.7.0/alpine/Dockerfile)*
 * `8.6.0-alpine`, `8.6-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.6.0/alpine/Dockerfile)*
 * `8.5.0-alpine`, `8.5-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.5.0/alpine/Dockerfile)*
