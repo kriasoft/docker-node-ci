@@ -1,4 +1,4 @@
-FROM node:9.0.0-alpine
+FROM node:8.9.0-alpine
 
 ENV AWS_CLI_VERSION 1.11.181
 ENV WATCHMAN_VERSION 4.9.0
@@ -16,7 +16,7 @@ RUN set -ex; \
     curl https://sdk.cloud.google.com | bash; \
     /root/google-cloud-sdk/bin/gcloud components install kubectl; \
     echo "export PATH=$PATH:/root/google-cloud-sdk/bin" >> /etc/profile; \
-
+    
     # Docker
     apk add --no-cache docker; \
     docker --version; \
