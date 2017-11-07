@@ -3,6 +3,7 @@ FROM node:9.0.0-alpine
 ENV AWS_CLI_VERSION 1.11.181
 ENV WATCHMAN_VERSION 4.9.0
 ENV DOCKER_COMPOSE_VERSION 1.16.1
+ENV YARN_VERSION 1.3.2
 
 RUN set -ex; \
     apk add --no-cache bash git openssl-dev openssh-client ca-certificates curl g++ \

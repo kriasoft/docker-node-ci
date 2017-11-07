@@ -5,6 +5,7 @@ ENV AWS_CLI_VERSION 1.11.181
 ENV WATCHMAN_VERSION 4.9.0
 ENV DOCKER_VERSION 17.09.0~ce-0~debian
 ENV DOCKER_COMPOSE_VERSION 1.16.1
+ENV YARN_VERSION 1.3.2
 
 RUN set -ex; \
     apt-get update && apt-get install -y --no-install-recommends \
