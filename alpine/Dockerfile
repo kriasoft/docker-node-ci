@@ -1,9 +1,8 @@
-FROM node:9.0.0-alpine
+FROM node:9.1.0-alpine
 
-ENV AWS_CLI_VERSION 1.11.181
+ENV AWS_CLI_VERSION 1.11.183
 ENV WATCHMAN_VERSION 4.9.0
-ENV DOCKER_COMPOSE_VERSION 1.16.1
-ENV YARN_VERSION 1.3.2
+ENV DOCKER_COMPOSE_VERSION 1.17.0
 
 RUN set -ex; \
     apk add --no-cache bash git openssl-dev openssh-client ca-certificates curl g++ \
