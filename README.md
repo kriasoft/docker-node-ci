@@ -4,24 +4,10 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `9.1.0`, `9.1`, `9`, `latest` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v9.1.0/Dockerfile)*
-* `9.0.0`, `9.0` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v9.0.0/Dockerfile)*
-* `8.9.1`, `8.9`, `8` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.9.1/8/Dockerfile)*
-* `8.8.1`, `8.8` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.8.1/Dockerfile)*
-* `8.7.0`, `8.7` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.7.0/Dockerfile)*
-* `8.6.0`, `8.6` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.6.0/Dockerfile)*
-* `8.5.0`, `8.5` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.5.0/Dockerfile)*
-* `8.4.0`, `8.4` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.4.0/Dockerfile)*
-* `9.1.0-alpine`, `9.1-alpine`, `9-alpine`, `alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v9.1.0/alpine/Dockerfile)*
-* `9.0.0-alpine`, `9.0-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v9.0.0/alpine/Dockerfile)*
-* `8.9.1-alpine`, `8.9-alpine`, `8-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.9.1/8/alpine/Dockerfile)*
-* `8.8.1-alpine`, `8.8-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.8.1/alpine/Dockerfile)*
-* `8.7.0-alpine`, `8.7-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.7.0/alpine/Dockerfile)*
-* `8.6.0-alpine`, `8.6-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.6.0/alpine/Dockerfile)*
-* `8.5.0-alpine`, `8.5-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.5.0/alpine/Dockerfile)*
-* `8.4.0-alpine`, `8.4-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.4.0/alpine/Dockerfile)*
-* `8.3.0-alpine`, `8.3-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.3.0/Dockerfile)*
-* `8.2.1-alpine`, `8.2-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.2.1/Dockerfile)*
+* `9.2.1`, `9.2`, `9`, `latest` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v9.2.1/Dockerfile)*
+* `9.2.1-alpine`, `9.2-alpine`, `9-alpine`, `alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v9.2.1/alpine/Dockerfile)*
+* `8.9.3`, `8.9`, `8`, `carbon` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.9.3/8/Dockerfile)*
+* `8.9.3-alpine`, `8.9-alpine`, `8-alpine`, `carbon-alpine` *[(Dockerfile)](https://github.com/kriasoft/docker-node-ci/blob/v8.9.3/8/alpine/Dockerfile)*
 
 ### Pre-installed packages
 
